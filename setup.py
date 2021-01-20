@@ -57,7 +57,7 @@ extra_options = {}
 if 'setuptools' in sys.modules:
     extra_options['zip_safe'] = False
     extra_options['extras_require'] = {
-        'source': 'Cython>=0.29',
+        'source': 'Cython>=0.29.21',
     }
 
 
